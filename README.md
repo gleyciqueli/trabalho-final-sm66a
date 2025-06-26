@@ -45,9 +45,15 @@ O objetivo do projeto é implementar um jogo de memória no qual o microcontrola
 2.  **Configuração do Ambiente:** Detalhamento das bibliotecas e configurações da IDE necessárias.
 3.  **Compilação e Upload:** Instruções para compilar o firmware e transferi-lo para o microcontrolador.
 
+## Aprovação do professor (26/06)
+
+No dia 26/06 o tema foi aprovado pelo Professor Vinícius Bacon
+
 ## 🚀 Cronograma e Evolução (Roadmap)
 
 - [ ] Definição da arquitetura de software.
 - [ ] Implementação do módulo de leitura de sensores.
 - [ ] Implementação da lógica de controle.
 - [ ] Validação e testes funcionais.
+
+
