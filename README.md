@@ -7,24 +7,25 @@ Projeto FInal da disciplina de Sistemas Microcontrolados
 
 Este repositório contém o desenvolvimento de um sistema embarcado do Jogo Simon, utilizando o microcontrolador TM4C123G. O projeto foi desenvolvido como parte dos requisitos avaliativos da disciplina SM66A - Sistemas Microcontrolados.
 
-O objetivo do projeto é implementar um jogo de memória no qual o microcontrolador gera uma sequência crescente de LEDs acesos e sons associados. O jogador deve repetir a sequência correta utilizando botões. O sistema exibe a pontuação em displays de 7 segmentos, além de fornecer feedback sonoro para acertos, erros e reinício.
+O objetivo do projeto é implementar um jogo de memória no qual o microcontrolador gera uma sequência crescente de LEDs acesos e sons associados. O jogador deve repetir a sequência correta utilizando botões. O sistema exibe a pontuação em displays de 7 segmentos, além de fornecer feedback sonoro para erros e reinício.
 
 ## ✨ Funcionalidades Implementadas
 
-- Geração de sequências aleatórias de LEDs.
+- Geração de sequência para os LEDs.
 - Reconhecimento de entrada do jogador via botões.
-- Feedback sonoro com diferentes sons para cada LED e eventos (acerto, erro, reinício).
+- Feedback sonoro com diferentes sons para cada LED e eventos (erro e reinício).
 - Contagem de pontos exibida em displays de 7 segmentos.
 - Aumento progressivo da dificuldade conforme o jogador acerta.
 
 ## ✨ Periféricos Utilizados
 
-- GPIO: Controle dos LEDs, leitura dos botões e acionamento dos displays de 7 segmentos.
+- GPIO: Controle dos LEDs.
+- GPIO: Leitura dos botões.
+- GPIO: Acionamento dos displays de 7 segmentos.
 - PWM: Geração de sons diferenciados para os LEDs, acertos, erros e reinício.
 - TIMER:
       Temporização de eventos no jogo (tempo dos LEDs, debouncing dos botões).
       Multiplexação dos displays de 7 segmentos.
-- RNG (Pseudo-aleatório via função rand()): Geração da sequência do jogo.
 
 ## 🛠️ Hardware e Componentes
 
